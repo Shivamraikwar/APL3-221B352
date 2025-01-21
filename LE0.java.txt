@@ -1,0 +1,32 @@
+class Juet {
+    int age;
+    String name;
+    
+    void setAge(int age) {
+        this.age = age;
+    }
+
+    void setName(String name) {
+        this.name = name;
+    }
+
+    int getAge() {
+        return this.age;
+    }
+    
+    String getName() {
+        return this.name;
+    }
+
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Juet m1 = new Juet();
+        m1.setName("ShubhSingh");
+        m1.setAge(20);
+
+        System.out.println(m1.getName());
+        System.out.println(m1.getAge());
+    }
+}
