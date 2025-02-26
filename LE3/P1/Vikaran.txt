@@ -1,0 +1,5 @@
+class Vikaran extends Kaurav{
+    Vikaran(){
+    super("obedient","kind");
+    }
+}

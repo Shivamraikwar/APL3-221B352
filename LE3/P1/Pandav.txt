@@ -1,0 +1,9 @@
+class Pandav extends BharatVanshi{
+    String kind;
+    Pandav(String value){
+        kind=value;
+    }
+    void obey(){
+        System.out.println("Was obedient");
+    };
+}

@@ -1,0 +1,6 @@
+class Test implements Testable {
+    // Providing implementation for the display method
+    public void display() {
+        System.out.println("Display method in Test class");
+    }
+}
