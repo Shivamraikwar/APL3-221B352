@@ -1,0 +1,8 @@
+class Bheem extends Pandav{
+    
+    
+    Bheem() {
+        super("Less kind");  
+    }
+    
+}

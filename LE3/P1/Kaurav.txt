@@ -1,0 +1,10 @@
+class Kaurav extends BharatVanshi{
+    
+    String disobedient;
+    String cruel;
+    Kaurav(String v1,String v2){
+        disobedient=v1;
+        cruel=v2;
+    }
+    
+}
